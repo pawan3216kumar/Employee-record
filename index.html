@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <h1>Masai Employee Records</h1>
+   <form id="form">
+        <label>Employee Name</label><br>
+        <input id="name" type="text" placeholder="Enter Student Name"><br>
+        <label>Employee Id</label><br>
+        <input id="id" type="text" placeholder="Enter Employee Id"><br>
+        <label>Department</label><br>
+           <select  id="department">
+             <option> Select Department</option>
+             <option>Frontend</option>
+             <option>Backend</option>
+             <option>Ops</option>
+             <option>HR</option>
+             <option>IA</option>
+          </select><br>
+        <label>Experience</label><br>
+        <input id="exp" type="number" placeholder="Experience in Years"><br>
+        <label>Email Address</label><br>
+        <input id="email" type="text" placeholder="Enter Email Address "><br>
+        <label>Mobile Number</label><br>
+        <input id="number" type="number" placeholder="Enter Mobile Number"><br>
+        <input id="submit" type="submit">
+        <br><br>
+   </form>
+
+   <br><br>
+   <table id="container">
+       <thead>
+             <th>Name</th>
+             <th>Emp Id</th>
+             <th>Department</th>
+             <th>Experience</th>
+             <th>Email Address</th>
+             <th>Mobile Number</th>
+             <th>Role</th>
+              <th>Delete</th>
+             
+       </thead>
+
+       <tbody id="tbody">
+            
+       </tbody>
+   </table>
+</body>
+</html>
+<script src="index.js">    
+</script>
